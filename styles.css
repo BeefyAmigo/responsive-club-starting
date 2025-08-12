@@ -1,0 +1,39 @@
+/* default styling */
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+
+/* header styling */
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    padding-left: 2.5rem;
+}
