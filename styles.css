@@ -21,6 +21,17 @@ h2 {
   max-width: 100%;
 }
 
+img {
+    height: 20rem;
+    width: auto;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 /* header styling */
 
 header .content {
@@ -37,3 +48,9 @@ nav ul {
 nav li {
     padding-left: 2.5rem;
 }
+
+/* information styling */
+
+
+
+
