@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #C49E6C;
+}
+
 h1 {
     font-size: 2.25rem;
     font-weight: 700;
@@ -32,7 +36,35 @@ img {
     justify-content: space-evenly;
 }
 
+@media only screen and (max-width: 1250px) {
+    img {
+        height: 15rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    img {
+        height: 10rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .images {
+        flex-direction: column;
+    }
+    
+    img {
+        height: 20rem;
+        margin-bottom: 1rem;
+    }
+}
+
 /* header styling */
+
+header {
+    background-color: #1A1F2B;
+    color: #C49E6C;
+}
 
 header .content {
     display: flex;
@@ -47,10 +79,70 @@ nav ul {
 
 nav li {
     padding-left: 2.5rem;
+    font-size: 1.1rem;
+}
+
+/* banner styling */
+
+.banner h1 {
+    margin: 10rem 0;
+    text-align: center;
+    font-size: 4rem;
+}
+
+@media only screen and (max-width: 450px) {
+    .banner h1 {
+        font-size: 2.25rem;
+    }
 }
 
 /* information styling */
 
+.info-header {
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
 
+.information h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #D35400
+}
 
+/* Quote section styling */
 
+.quote {
+    margin-top: 2rem;
+    padding: 3rem 0 8rem 2rem;
+    background-color: #1A1F2B;
+    color: #D35400;
+}
+
+.quote h1 {
+    margin-bottom: 1rem;
+}
+
+/* closing section */
+
+.image-section .info-header {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.image-section h2 {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+/* footer styling */
+
+footer {
+    background-color: #1A1F2B;
+    color: #C49E6C;
+}
+
+footer .content {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
